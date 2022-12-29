@@ -7,7 +7,6 @@ import Note from './Components/Note';
 function App() {
   const [notes, setNotes] = useState([]);
 
-
   function addNote(newNote) {
 
     if (!newNote.title && !newNote.contemt) {
@@ -19,12 +18,7 @@ function App() {
       })
 
     }
-
-
-
-
-  }
-
+}
   function deleteNote(id) {
 
     setNotes(prevNotes => {
@@ -39,7 +33,6 @@ function App() {
       <CreateArea onAdd={addNote} />
       {notes.map((item, idx) => {
         return (
-
           <Note
             key={idx}
             id={idx}
