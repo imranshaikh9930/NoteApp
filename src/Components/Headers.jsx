@@ -5,7 +5,7 @@ function Headers() {
     <header>
       <h2>
         <span className="material-symbols-outlined">edit_note</span>
-        MyNotes
+        TodoApp
       </h2>
       <p>Created By : Imran Shaikh</p>
     </header>
